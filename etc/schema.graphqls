@@ -1,0 +1,5 @@
+# Copyright © StorefrontX, Inc. All rights reserved.
+
+interface ProductInterface {
+    product_labels(mode: AmLabelMode @doc(description: "Label Mode")): AmLabelList @doc(description: "Return product labels") @resolver(class: "StorefrontX\\ProductLabelsExtension\\Model\\Resolver\\ProductLabelsResolver")
+}

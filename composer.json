@@ -1,0 +1,21 @@
+{
+  "name": "storefront-x/magento-module-product-labels-extended-graphql",
+  "description": "Magento 2 module adds support for SFX Google Pay over Braintree",
+  "type": "magento2-module",
+  "require": {
+    "magento/module-graph-ql": "*",
+    "amasty/product-labels-graphql": ">=1.0.0"
+  },
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "StorefrontX\\ProductLabelsExtension\\": ""
+    }
+  }
+}
+
