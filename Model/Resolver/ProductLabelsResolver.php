@@ -84,7 +84,7 @@ class ProductLabelsResolver implements ResolverInterface
                 $data['product_id'] = $label->getAppliedProductId();
                 $data['size'] = $label->getValue('image_size');
                 $data['txt'] = $label->getText();
-                $data['image'] = str_replace($baseUrl, '', $label->getImageSrc());
+                $data['image'] = str_replace($baseUrl, '', ($label->getImageSrc() ?? ''));
                 $data['position'] = $label->getCssClass();
                 $data['style'] = $label->getStyle();
 
