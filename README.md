@@ -3,6 +3,8 @@ Module for Magento 2
 
 **StorefrontX_ProductLabelsExtension** Add product labels from amasty to product type response
 
+Added functionality to remove label "Discount" when field is empty.
+
 
 ## Dependencies
 
